@@ -17,7 +17,7 @@ import { NativeAdBanner } from '@/components/ads/NativeAdBanner';
 import { formatCurrency } from '@/lib/utils';
 import { calculateDetailedEstimate } from '@/lib/estimation-engine';
 
-export default function HomePage() {
+export default func Page() {
   const [quickSqm, setQuickSqm] = useState(25);
   const [quickSystem, setQuickSystem] = useState<'Mira' | 'Mapei' | 'Kiilto'>('Mira');
 
